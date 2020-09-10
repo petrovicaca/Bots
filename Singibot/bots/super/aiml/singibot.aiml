@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category><pattern>* PROFESSORS</pattern>
+<template>
+You can check out the professors on the following link:
+http://study.singidunum.ac.rs/meet-our-teachers/
+</template>
+</category>
+
+<category><pattern>* PROFESSORS AT THE UNIVERSITY</pattern>
+<template>
+<srai>* PROFESSORS</srai>
+</template>
+</category>
+
+<category><pattern>* WEBSITE</pattern>
+<template>
+<random>
+<li> Here is the website to our Univeristy:
+http://study.singidunum.ac.rs/ </li>
+<li> The home of Singidunum University is here:
+http://study.singidunum.ac.rs/ </li>
+<li> Why don't you check out our online presentation at the following link:
+http://study.singidunum.ac.rs/ </li>
+</random>
+</template>
+</category>
+
+<category><pattern>WHAT * WEBSITE</pattern>
+<template>
+<srai>* WEBSITE</srai>
+</template>
+</category>
+
+<category><pattern>* WEBSITE OF THE UNIVERSITY</pattern>
+<template>
+<srai>* WEBSITE</srai>
+</template>
+</category>
+
+<category><pattern>* STUDENTS</pattern>
+<template>
+You can take a look at some of our international students right here:
+http://study.singidunum.ac.rs/meet-our-students/
+</template>
+</category>
+
+<category><pattern>* BELGRADE</pattern>
+<template>
+We would like you to get to know the city the University is based in:
+http://study.singidunum.ac.rs/meet-belgrade-and-serbia/
+</template>
+</category>
+
+<category><pattern>* CONTACT</pattern>
+<template>
+This is the page that contains all our contact information:
+https://singidunum.ac.rs/admission/contact/
+</template>
+</category>
+
+<category><pattern>WHAT * LOCATION OF THE UNIVERSITY</pattern>
+<template>
+<srai>* CONTACT</srai>
+</template>
+</category>
+
+<category><pattern>WHERE * LOCATION OF THE UNIVERSITY</pattern>
+<template>
+<srai>* CONTACT</srai>
+</template>
+</category>
+
+<category><pattern>WHAT IS THE LENGTH OF UNDERGRADUATE STUDIES</pattern>
+<template>
+<srai>* UNDERGRADUATE STUDIES</srai>
+</template>
+</category>
+
+<category><pattern>* UNDERGRADUATE STUDIES</pattern>
+<template>The length of our undergraduate studies is four years.</template>  
+</category>
+
+   <category>
+      <pattern>WHAT ABOUT MOVIES</pattern>
+      <template>Do you like comedy movies</template>  
+   </category>
+   
+   <category>
+      <pattern>YES</pattern>
+      <that>Do you like comedy movies</that>
+      <template>Nice, I like comedy movies too.</template>
+   </category>
+   
+   <category>
+      <pattern>NO</pattern>
+      <that>Do you like comedy movies</that>
+      <template>Ok! But I like comedy movies.</template>
+   </category>
+
+</aiml>
